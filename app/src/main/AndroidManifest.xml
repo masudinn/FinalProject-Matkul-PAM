@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fp_pam_2087">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".UI.DetailMain.DetailActivity"
+            android:parentActivityName=".UI.Dashboard.MainActivity"/>
+        <activity android:name=".UI.Dashboard.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

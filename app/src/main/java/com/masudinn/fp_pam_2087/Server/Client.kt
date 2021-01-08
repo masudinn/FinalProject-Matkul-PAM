@@ -11,7 +11,7 @@ class Client {
         fun getClient(): Retrofit {
 
             return Retrofit.Builder()
-                .baseUrl(baseurl +"api/v1/json/${key}")
+                .baseUrl(baseurl +"/api/v1/json/${key}/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build()

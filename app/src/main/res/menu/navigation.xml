@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/lastMatch"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_home_24"
-        android:title="last_match"
-        app:showAsAction="ifRoom" />
+<!--    <item-->
+<!--        android:id="@+id/lastMatch"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_baseline_home_24"-->
+<!--        android:title="Last Match"-->
+<!--        app:showAsAction="ifRoom" />-->
 
     <item
         android:id="@+id/nextMatch"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_event_available_24"
-        android:title="next_match"
+        android:title="Next Match"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/favMatch"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_star_24"
-        android:title="favorite"
+        android:title="Favorite"
         app:showAsAction="ifRoom" />
 </menu>
